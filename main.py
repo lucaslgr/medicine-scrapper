@@ -4,7 +4,7 @@ from pyppeteer import launch
 
 async def main():
     # Launch the browser
-    browser = await launch(headless=True)
+    browser = await launch(headless=False)
     page = await browser.newPage()
 
     # Navigate to the website
